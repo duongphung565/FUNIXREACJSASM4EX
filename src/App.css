@@ -1,0 +1,74 @@
+.bg-light {
+    background-color: blue;
+}
+
+.container .navbar-brand {}
+
+.header_text a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+
+
+}
+
+.borderStaff {
+    border: 1px solid #EEEEEE;
+    border-radius: 2px;
+}
+
+.detailStaff {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #0DCAF0;
+}
+
+.employee_detail a,
+.footer_info a {
+    color: blue !important;
+
+
+}
+
+.card-title {
+    color: black;
+}
+
+.btn-sort {
+    background-color: goldenrod;
+
+}
+
+.btn-sort:hover {
+    background-color: rgb(95, 71, 8);
+    color: red;
+
+}
+
+.card-text {
+    color: black;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
